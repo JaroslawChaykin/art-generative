@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+.app-style {
+    overflow: hidden;
+    width: calc(30vw - 100px);
+    height: calc(100vh - 100px);
+}
+.block {
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .box {
+        margin: 100px 30px 30px;
+    }
+    .app-style {
+        overflow: hidden;
+        width: calc(30vw - 30px);
+        height: calc(100vh - 30px);
+    }
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+    margin-bottom: -40px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
