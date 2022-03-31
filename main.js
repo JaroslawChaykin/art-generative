@@ -72,5 +72,5 @@ setInterval(()=> {
     App.append(blockGenerated(1))
     App2.append(blockGenerated2())
     App3.append(blockGenerated(3))
-}, 1000)
+}, 3000)
 

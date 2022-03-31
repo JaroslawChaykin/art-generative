@@ -6,6 +6,14 @@
 body {
     overflow: hidden;
 }
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+    margin-bottom: -40px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
 .box {
     display: flex;
     justify-content: space-between;
@@ -24,18 +32,10 @@ body {
     .box {
         margin: 100px 30px 30px;
     }
+
     .app-style {
         overflow: hidden;
         width: calc(30vw - 30px);
         height: calc(100vh - 30px);
     }
-}
-
-h1 {
-    text-align: center;
-    padding-top: 40px;
-    font-family: sans-serif;
-    margin-bottom: -40px;
-    text-transform: uppercase;
-    color: whitesmoke;
 }
